@@ -1,9 +1,25 @@
-<h2>Login</h2>
-<form (submit)="login()">
-    <label>Usuario:</label>
-    <input type="text" [(ngModel)]="username" required name="username" />
-    <label>Contraseña:</label>
-    <input type="password" [(ngModel)]="password" name="password" required />
-    <button type="submit">Ingresar</button>
-    <p *ngIf="errorMessage">{{ errorMessage }}</p>
-</form>
+<mat-card class="login-container">
+    <mat-card-title>🔐 Iniciar Sesión</mat-card-title>
+    <mat-card-content>
+        <form (submit)="login()">
+
+            <!-- Usuario -->
+            <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Usuario</mat-label>
+                <input matInput type="text" [(ngModel)]="username" required name="username" />
+            </mat-form-field>
+
+            <!-- Contraseña -->
+            <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Contraseña</mat-label>
+                <input matInput type="password" [(ngModel)]="password" required name="password" />
+            </mat-form-field>
+
+            <div class="button-group">
+                <button mat-raised-button color="primary" type="submit">🚀 Ingresar</button>
+            </div>
+
+            <p *ngIf="errorMessage" class="error-message">{{ errorMessage }}</p>
+        </form>
+    </mat-card-content>
+</mat-card>

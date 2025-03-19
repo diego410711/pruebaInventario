@@ -1,0 +1,22 @@
+.card-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.mensaje {
+    margin-top: 10px;
+    font-weight: bold;
+    color: green;
+}

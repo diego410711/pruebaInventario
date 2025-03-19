@@ -1,10 +1,24 @@
-<h2>Registrar Movimiento</h2>
-<form (submit)="registrarMovimiento()">
-    <label>ID del Producto:</label>
-    <input type="number" [(ngModel)]="productoId" required name="productoId" />
-    <label>Cantidad (+ para entrada, - para salida):</label>
-    <input type="number" [(ngModel)]="cantidad" required name="cantidad" />
-    <button type="submit">Registrar</button>
-    <button (click)="regresar()">Regresar</button>
-    <p *ngIf=" mensaje">{{ mensaje }}</p>
-</form>
+<div class="container">
+    <h2 class="text-center">📦 Registrar movimiento</h2>
+    <form (submit)="registrarMovimiento()">
+
+        <!-- ID del Producto -->
+        <mat-form-field appearance="outline" class="full-width">
+            <mat-label>ID del Producto</mat-label>
+            <input matInput type="number" [(ngModel)]="productoId" required name="productoId" />
+        </mat-form-field>
+
+        <!-- Cantidad -->
+        <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Cant. (+ entrada,- salida)</mat-label>
+            <input matInput type="number" [(ngModel)]="cantidad" required name="cantidad" />
+        </mat-form-field>
+
+        <div class="button-group">
+            <button mat-raised-button color="primary" type="submit">📥 Registrar</button>
+            <button mat-raised-button color="warn" (click)="regresar()" type="button">🔙 Regresar</button>
+        </div>
+
+        <p *ngIf="mensaje" class="mensaje">{{ mensaje }}</p>
+    </form>
+</div>
