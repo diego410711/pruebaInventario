@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|c:\\users\\alexa\\onedrive\\escritorio\\pruebainventario\\inventariopruebabackend\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|solutionrelative:controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|c:\\users\\alexa\\onedrive\\escritorio\\pruebainventario\\inventariopruebabackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|c:\\users\\alexa\\onedrive\\escritorio\\pruebainventario\\inventariopruebabackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Migrations\\20250318232315_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250318232315_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|c:\\users\\alexa\\onedrive\\escritorio\\pruebainventario\\inventariopruebabackend\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|c:\\users\\alexa\\onedrive\\escritorio\\pruebainventario\\inventariopruebabackend\\inventarioprueba.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|solutionrelative:inventarioprueba.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|c:\\users\\alexa\\onedrive\\escritorio\\pruebainventario\\inventariopruebabackend\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|solutionrelative:controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|c:\\users\\alexa\\onedrive\\escritorio\\pruebainventario\\inventariopruebabackend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,97 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ValuesController.cs",
-              "DocumentMoniker": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Controllers\\ValuesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ValuesController.cs",
-              "ToolTip": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Controllers\\ValuesController.cs",
-              "RelativeToolTip": "Controllers\\ValuesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:04:20.268Z",
+              "WhenOpened": "2025-03-19T02:29:29.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwDIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T22:56:24.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T21:36:34.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InventarioPrueba.csproj",
-              "DocumentMoniker": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\InventarioPrueba.csproj",
-              "RelativeDocumentMoniker": "InventarioPrueba.csproj",
-              "ToolTip": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\InventarioPrueba.csproj",
-              "RelativeToolTip": "InventarioPrueba.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-18T21:10:58.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-18T21:16:31.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250318232315_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Migrations\\20250318232315_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250318232315_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Migrations\\20250318232315_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20250318232315_InitialCreate.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T23:23:18.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Models\\Producto.cs",
-              "RelativeToolTip": "Models\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T22:59:58.489Z",
+              "WhenOpened": "2025-03-19T00:04:20.268Z",
               "EditorCaption": ""
             }
           ]

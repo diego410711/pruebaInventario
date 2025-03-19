@@ -1,14 +1,11 @@
-﻿using InventarioPrueba.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
-namespace InventarioPrueba.Data
+namespace InventarioPruebaBackend.Data
 {
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
-        {
-        }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        public DbSet<Producto> Productos { get; set; }
+        public DbSet<Producto> Productos { get; set; } // Agrega la entidad Producto
     }
 }

@@ -1,11 +1,9 @@
-﻿namespace InventarioPrueba.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+public class Producto
 {
-    public class Producto
-    {
-        public int Id { get; set; }
-        public string Nombre { get; set; } = string.Empty;
-        public string Descripcion { get; set; } = string.Empty;
-        public decimal Precio { get; set; }
-        public int Cantidad { get; set; }
-    }
+    [Key]
+    public int Id { get; set; }
+    public string Nombre { get; set; }
+    public int Cantidad { get; set; }
 }

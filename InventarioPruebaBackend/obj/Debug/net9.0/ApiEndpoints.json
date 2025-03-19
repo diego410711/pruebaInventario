@@ -1,12 +1,44 @@
 [
   {
+    "ContainingType": "AuthController",
+    "Method": "Login",
+    "RelativePath": "auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProductoController",
-    "Method": "Get",
-    "RelativePath": "api/Producto",
+    "Method": "GetInventario",
+    "RelativePath": "productos/inventario",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductoController",
+    "Method": "MovimientoProducto",
+    "RelativePath": "productos/movimiento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MovimientoRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

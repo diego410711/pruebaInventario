@@ -18,8 +18,6 @@ namespace InventarioPrueba.Migrations
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Nombre = table.Column<string>(type: "text", nullable: false),
-                    Descripcion = table.Column<string>(type: "text", nullable: false),
-                    Precio = table.Column<decimal>(type: "numeric", nullable: false),
                     Cantidad = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
