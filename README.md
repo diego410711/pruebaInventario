@@ -24,8 +24,8 @@ Asegúrate de tener instalados los siguientes programas en tu sistema:
 
 ### 1️ **Clonar el repositorio**
 ```sh
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio/InventarioPruebaBackend
+git clone https://github.com/diego410711/pruebaInventario.git
+cd pruebaInventarioo/InventarioPruebaBackend
 ```
 
 ### 2️ **Configurar la Base de Datos**
@@ -94,7 +94,7 @@ El frontend se ejecutará en `http://localhost:4200/`.
 - Haz clic en **"Mover Producto"** para actualizar el stock.
 
 ### 🔹 **3. Movimiento de Productos**
-- En `http://localhost:4200/movimiento/:id`, ingresa una cantidad positiva (entrada) o negativa (salida).
+- En `http://localhost:4200/movimiento`, ingresa una cantidad positiva (entrada) o negativa (salida).
 - Presiona **"Registrar"** para actualizar el inventario.
 
 ---
@@ -114,18 +114,6 @@ El frontend se ejecutará en `http://localhost:4200/`.
 - **Frontend:** Angular 19, Angular Material, TypeScript
 - **Backend:** .NET Core 9, Entity Framework Core, JWT Auth
 - **Base de Datos:** PostgreSQL
-- **Herramientas:** Visual Studio 2022, Railway para despliegue
+- **Herramientas:** Visual Studio 2022
 
 ---
-
-##  **Mejoras Futuras**
-- 🔹 Implementar roles y permisos.
-- 🔹 Agregar gráficos de stock en tiempo real.
-- 🔹 Integración con código de barras.
-
----
-
-##  **Licencia**
-Este proyecto está bajo la licencia MIT.
-
- **¡Contribuciones y mejoras son bienvenidas!** 
