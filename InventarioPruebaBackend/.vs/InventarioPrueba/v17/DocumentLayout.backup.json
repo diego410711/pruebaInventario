@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|c:\\users\\alexa\\onedrive\\escritorio\\pruebainventario\\inventariopruebabackend\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|c:\\users\\alexa\\onedrive\\escritorio\\pruebainventario\\inventariopruebabackend\\migrations\\20250319014609_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|solutionrelative:migrations\\20250319014609_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|c:\\users\\alexa\\onedrive\\escritorio\\pruebainventario\\inventariopruebabackend\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0302F591-FEC2-42D0-8E40-CEF289A61B3B}|InventarioPrueba.csproj|solutionrelative:controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,11 +30,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:39:50.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "20250319014609_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Migrations\\20250319014609_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250319014609_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Migrations\\20250319014609_InitialCreate.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250319014609_InitialCreate.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:39:00.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -34,8 +67,7 @@
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T02:29:29.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T02:29:29.113Z"
             },
             {
               "$type": "Document",
@@ -43,16 +75,16 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAuwDIAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEEAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T22:56:24.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\alexa\\OneDrive\\Escritorio\\pruebaInventario\\InventarioPruebaBackend\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductoController.cs",
@@ -60,8 +92,7 @@
               "RelativeToolTip": "Controllers\\ProductoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:04:20.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T00:04:20.268Z"
             }
           ]
         }

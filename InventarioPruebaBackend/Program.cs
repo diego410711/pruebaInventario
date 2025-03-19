@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Configurar Entity Framework con PostgreSQL
@@ -14,11 +16,22 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddControllers();
 builder.Services.AddOpenApi(); // Habilitar OpenAPI (Swagger)
 
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-
 builder.Services.AddScoped<JwtService>();
 
+// Configurar CORS correctamente
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:4200") // Permitir Angular
+                  .AllowAnyMethod()
+                  .AllowAnyHeader()
+                  .AllowCredentials(); // Si usas autenticación con cookies o JWT
+        });
+});
+
+// Configuración de autenticación con JWT
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -36,8 +49,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     });
 
 builder.Services.AddAuthorization();
-
-
 
 var app = builder.Build();
 
@@ -63,8 +74,12 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi(); // Habilitar OpenAPI solo en desarrollo
 }
 
+// Aplicar CORS ANTES de autenticación y autorización
+app.UseCors(MyAllowSpecificOrigins);
 app.UseHttpsRedirection();
+app.UseAuthentication(); // Agregar UseAuthentication()
 app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+

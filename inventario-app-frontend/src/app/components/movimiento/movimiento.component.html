@@ -1,0 +1,10 @@
+<h2>Registrar Movimiento</h2>
+<form (submit)="registrarMovimiento()">
+    <label>ID del Producto:</label>
+    <input type="number" [(ngModel)]="productoId" required name="productoId" />
+    <label>Cantidad (+ para entrada, - para salida):</label>
+    <input type="number" [(ngModel)]="cantidad" required name="cantidad" />
+    <button type="submit">Registrar</button>
+    <button (click)="regresar()">Regresar</button>
+    <p *ngIf=" mensaje">{{ mensaje }}</p>
+</form>

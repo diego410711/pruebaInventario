@@ -1,0 +1,9 @@
+<h2>Login</h2>
+<form (submit)="login()">
+    <label>Usuario:</label>
+    <input type="text" [(ngModel)]="username" required name="username" />
+    <label>Contraseña:</label>
+    <input type="password" [(ngModel)]="password" name="password" required />
+    <button type="submit">Ingresar</button>
+    <p *ngIf="errorMessage">{{ errorMessage }}</p>
+</form>
